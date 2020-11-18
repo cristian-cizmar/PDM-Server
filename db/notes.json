@@ -1,16 +1,4 @@
-{"name":"test5","length":55,"releaseDate":"05-05-1955","isWatched":"false","userId":"vI1GMkzBza5i82zj","_id":"10Al9rIbsIvg5Ea5"}
-{"_id":"428OAFKxX8uUykA6","isWatched":false,"length":123,"name":"test_BB","ownerUsername":"b","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82zz"}
-{"_id":"5vdikrMG3f3U30Au","isWatched":true,"length":55,"name":"movie 55","ownerUsername":"a","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82zj"}
-{"_id":"Cfrh9QPDCMmjlj3p","isWatched":false,"length":111,"name":"test","ownerUsername":"c","releaseDate":"01-01-2000","userId":"vI1GMkzBza5i82za"}
-{"_id":"Sd91C0S2iC5js6AD","isWatched":true,"length":123,"name":"test_B2","ownerUsername":"b","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82zz"}
-{"_id":"StdzcHLwyfx3CAuc","isWatched":true,"length":65,"name":"movie 655","ownerUsername":"a","releaseDate":"06-06-2020","userId":"vI1GMkzBza5i82zj"}
-{"_id":"T4qCCXGgiJomU8GY","isWatched":true,"length":123,"name":"asd","ownerUsername":"c","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82za"}
-{"_id":"inrPc587o4cHr0P0","isWatched":true,"length":33,"name":"test","releaseDate":"01-01-1111","userId":"vI1GMkzBza5i82za"}
-{"_id":"m7HhrURTO6f3RGIj","isWatched":true,"length":110,"name":"asdd","ownerUsername":"a","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82zj"}
-{"_id":"npXfu3DBNUZ0OUh1","isWatched":"true","length":331,"releaseDate":"01-01-2020","name":"test2","userId":"vI1GMkzBza5i82zj"}
-{"_id":"oXLpNPwTjbAzrUnY","isWatched":"false","length":123,"releaseDate":"01-1-2020","name":"test333","userId":"vI1GMkzBza5i82zj"}
-{"_id":"rBawAE4SJFUeu1DF","isWatched":false,"length":223,"releaseDate":"02-03-1923","name":"asdasdasdas223","userId":"vI1GMkzBza5i82za"}
-{"_id":"s4DzFmZfcXwveBab","isWatched":false,"length":123,"name":"asdasda test","ownerUsername":"c","releaseDate":"01-01-2020","userId":"vI1GMkzBza5i82za"}
-{"_id":"xWSZAMKYNqbwSJxk","isWatched":false,"length":123,"name":"test22","ownerUsername":"c","releaseDate":"01-01-2000","userId":"vI1GMkzBza5i82za"}
-{"_id":"z9eLMaBk752nH1L2","isWatched":false,"length":120,"name":"qweqwe123","ownerUsername":"c","releaseDate":"01-01-1000","userId":"vI1GMkzBza5i82za"}
-{"_id":"oXLpNPwTjbAzrUnY","isWatched":false,"length":123,"name":"test3333","ownerUsername":"a","releaseDate":"01-1-2020","userId":"vI1GMkzBza5i82zj"}
+{"_id":"ClRSStnSWfvA43IS","backendUpdateType":"","isWatched":true,"length":100,"name":"movie1","ownerUsername":"a","releaseDate":"01-01-2020","upToDateWithBackend":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"ClRSStnSWfvA43IS","backendUpdateType":"","isWatched":true,"length":100,"name":"movie12","ownerUsername":"a","releaseDate":"01-01-2020","upToDateWithBackend":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"xALoBxLHy6dUJTSO","backendUpdateType":"","isWatched":false,"length":3,"name":"movie3","ownerUsername":"a","releaseDate":"3","upToDateWithBackend":true,"userId":"vI1GMkzBza5i82zj"}
+{"$$deleted":true,"_id":"xALoBxLHy6dUJTSO"}
