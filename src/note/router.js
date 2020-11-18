@@ -61,14 +61,23 @@ router.put('/:id', async (ctx) => {
   } else {
     const userId = ctx.state.user._id;
     note.userId = userId;
-    const updatedCount = await noteStore.update({ _id: id }, note);
-    if (updatedCount === 1) {
-      response.body = note;
-      response.status = 200; // ok
-      broadcast(userId, { type: 'updated', payload: note });
-    } else {
-      response.body = { message: 'Resource no longer exists' };
-      response.status = 405; // method not allowed
+
+    const lastVersion = await noteStore.findOne({_id: noteId});
+    if(lastVersion && note.openTime < lastVersion.openTime){
+      response.body = { message: 'Version conflict' };
+      response.status = 409; // version conflict
+    }
+    else {
+      note.openTime = Date.now()
+      const updatedCount = await noteStore.update({ _id: id }, note);
+      if (updatedCount === 1) {
+        response.body = note;
+        response.status = 200; // ok
+        broadcast(userId, { type: 'updated', payload: note });
+      } else {
+        response.body = { message: 'Resource no longer exists' };
+        response.status = 405; // method not allowed
+      }
     }
   }
 });
